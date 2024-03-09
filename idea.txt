@@ -1,0 +1,78 @@
+{
+    form_name: "Loan"
+    pages: [
+        {
+            page_name: "Personal Details"
+            fields: [
+                {
+                    label: "Address"
+                    widget: "location"
+                    validator: "location"
+                },
+                {
+                    label: "Name"
+                    widget: "text"
+                    validator: "string"
+                },
+                {
+                    label: "Phone Number"
+                    widget: "number"
+                    validator: "phone-number"
+                }
+            ]
+        },
+        {
+            page_name: "Personal Details"
+            fields: [
+                {
+                    label: "Address"
+                    widget: "location"
+                    validator: "location"
+                },
+                {
+                    label: "Name"
+                    widget: "text"
+                    validator: "string"
+                },
+                {
+                    label: "Phone Number"
+                    widget: "number"
+                    validator: "phone-number"
+                }
+            ]
+        }
+    ]
+}
+
+Result: [
+    {
+        id: 1
+        value: "ishwdkwddgakjssdvm"
+    },
+    {
+        id: 2
+        value: "ishwdkwddgakjssdvm"
+    }
+]
+
+Django
+
+class Template {
+    
+    formSchema = JsonField();
+}
+
+class Form {
+    id
+    formSchema = JsonField();
+    def giveID():
+      -----------
+    resultData = JsonField();
+
+}
+
+getAllTemplates
+
+Instance:
+   data
+   id

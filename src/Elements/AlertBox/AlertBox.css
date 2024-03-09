@@ -1,0 +1,12 @@
+.alert-box {
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    width: 100vw;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(1, 32, 32, 0.144);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "veridox-68b89"
+  },
+  "targets": {
+    "veridox-68b89": {
+      "hosting": {
+        "agencymodule": [
+          "veridox-68b89"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

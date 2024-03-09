@@ -1,0 +1,15 @@
+.play-fair {
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1.6px solid gray;
+    padding: 0.3em;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.main {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: filter 0.2s ease-in;
+}
